@@ -20,6 +20,7 @@ x64/
 x86/
 [Aa]rm/
 [Aa]rm64/
+*.zip
 
 # NuGet Packages
 *.nupkg
@@ -31,3 +32,9 @@ x86/
 
 # Specstory (IDE artifacts)
 .specstory/
+
+# BepInEx deployment (for Releases)
+/BepInEx/
+/BepInEx/plugins/
+BepInEx/plugins/AC_MakerAutoscroll.dll
+

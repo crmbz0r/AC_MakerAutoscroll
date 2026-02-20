@@ -15,10 +15,14 @@
     <GamePluginsPath>G:\Games\AICOMI!\BepInEx\plugins</GamePluginsPath>
   </PropertyGroup>
 
-  <Target Name="CopyToRoot" AfterTargets="Build">
+  <Target Name="DeployToBepInEx" AfterTargets="Build">
+    <PropertyGroup>
+      <BepInExDir>$(ProjectDir)BepInEx\plugins</BepInExDir>
+    </PropertyGroup>
+    <MakeDir Directories="$(BepInExDir)" Condition="!Exists('$(BepInExDir)')" />
     <Copy
       SourceFiles="$(OutputPath)$(AssemblyName).dll"
-      DestinationFolder="$(ProjectDir)"
+      DestinationFolder="$(BepInExDir)"
       OverwriteReadOnlyFiles="true"
     />
   </Target>

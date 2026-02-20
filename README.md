@@ -1,32 +1,30 @@
 ﻿# AC Maker Autoscroll
 
-Auto-scrolls the thumbnail list in AiComi Maker to always show the selected item. No more manual scrolling to see your choice!
+### Auto-scrolls the thumbnail list in AiComi Maker to always show the selected item. No more manual scrolling to see your choice!
 
 ![demo](https://github.com/user-attachments/assets/3b6c7538-6324-435c-988f-9329f4435623)
 
 
 ## Features
 
-- Should work on all Maker categories (Hair, Accessories, Eyes, etc.)
-- Smooth scrolling with every Next/Prev click that keeps your selection at the top when looking through your hairstyles or whatever using the "Next" button
+- Works on all Maker categories (Hair, Accessories, Eyes, etc.) ✅
+- Smooth scrolling with every Next/Prev click
 - Debug logging toggle (Advanced settings)
-- Automatic DLL deployment to `Project-Root`
+- Ready-to-deploy `BepInEx/plugins/` folder
 
 ## Installation
 
-1. Download `AC_MakerAutoscroll.dll`
-2. Copy to `AiComi/BepInEx/plugins/`
-3. Start AiComi!
+1. Download `AC_MakerAutoscroll_v1.0.zip`
+2. Extract → Copy `BepInEx/` folder to your `AiComi!/` directory
+3. Start AiComi! ✅
 
 ## Build from source
 
-```bash
+```cmd
 dotnet build AC_MakerAutoscroll.csproj
 ```
 
-→ `AC_MakerAutoscroll.dll` in Projekt-Root
-→ Copy to "AICOMI!\BepInEx\plugins"
-*wherever you have it installed*
+→ `Build-Root/BepInEx/plugins/AC_MakerAutoscroll.dll` (ready-to-deploy!)
 
 ## Configuration (optional)
 
@@ -35,11 +33,14 @@ dotnet build AC_MakerAutoscroll.csproj
 
 ## Compatibility
 
-- AiComi (IL2CPP)
-- Ver 2.0.1+ (w/ Night Tour DLC)
-- Probably also 1.0.7+
+- AiComi 2.0.1+ (Night Tour DLC)
+- AiComi 1.0.7+ (probably)
 - BepInEx 6.x
 - .NET 6.0
+
+## License
+
+MIT
 
 ## License
 
