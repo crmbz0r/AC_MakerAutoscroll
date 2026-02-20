@@ -1,52 +1,33 @@
-# http://www.gnu.org/software/automake
+# .NET Core
+bin/
+obj/
 
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
-.deps/
-.dirstamp
+# Visual Studio / VSCode
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+.DS_Store
 
-# http://www.gnu.org/software/autoconf
+# Logs
+*.log
 
-autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.cache
-/config.guess
-/config.h.in
-/config.log
-/config.status
-/config.sub
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
 
-# https://www.gnu.org/software/libtool/
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
 
-/ltmain.sh
+# IllusionLibs (local cache only)
+!IllusionLibs/
 
-# http://www.gnu.org/software/texinfo
-
-/texinfo.tex
-
-# http://www.gnu.org/software/m4/
-
-m4/libtool.m4
-m4/ltoptions.m4
-m4/ltsugar.m4
-m4/ltversion.m4
-m4/lt~obsolete.m4
-
-# Generated Makefile
-# (meta build system like autotools,
-# can automatically generate from config.status script
-# (which is called by configure script))
-Makefile
+# Specstory (IDE artifacts)
+.specstory/
