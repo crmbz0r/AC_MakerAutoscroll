@@ -2,7 +2,8 @@
 
 ### Auto-scrolls the thumbnail list in AiComi Maker to always show the selected item. No more manual scrolling to see your choice!
 
-![Demo](https://github.com/crmbz0r/AC_MakerAutoscroll/raw/main/demo.gif)
+![demo](https://github.com/user-attachments/assets/4e6e1a65-b6e0-40e6-b79b-4bbfd3d66eb2)
+
 
 ## Features
 
