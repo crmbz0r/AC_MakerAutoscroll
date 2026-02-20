@@ -7,8 +7,8 @@ Auto-scrolls the thumbnail list in AiComi Maker to always show the selected item
 ## Features
 
 - Should work on all Maker categories (Hair, Accessories, Eyes, etc.)
-- Smooth scrolling that keeps your selection at the top when looking through your hairstyles etc. using the "Next/Prev" button
-- Debug logging toggle (Advanced settings) if needed
+- Smooth scrolling with every Next/Prev click that keeps your selection at the top when looking through your hairstyles or whatever using the "Next" button
+- Debug logging toggle (Advanced settings)
 - Automatic DLL deployment to `Project-Root`
 
 ## Installation
